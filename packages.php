@@ -6,12 +6,12 @@ $PKGi = new PKGi();
 if($PKGi->isRequestFromHomebrew()) {
 	header('Content-type: application/json');
 
-	$PKGi->addHomebrew('Homebrew 1', 'https://example.com/refs/1.json');
-	$PKGi->addHomebrew('Homebrew 2', 'https://example.com/refs/2.json');
-	$PKGi->addHomebrew('Homebrew 3', 'https://example.com/refs/3.json');
-	$PKGi->addHomebrew('Homebrew 4', 'https://example.com/refs/4.json');
-	$PKGi->addHomebrew('Homebrew 5', 'https://example.com/refs/5.json');
-	$PKGi->addHomebrew('Homebrew 6', 'https://example.com/refs/6.json');
+	$PKGi->addHomebrew('Homebrew 1', 1);
+	$PKGi->addHomebrew('Homebrew 2', 2);
+	$PKGi->addHomebrew('Homebrew 3', 3);
+	$PKGi->addHomebrew('Homebrew 4', 4);
+	$PKGi->addHomebrew('Homebrew 5', 5);
+	$PKGi->addHomebrew('Homebrew 6', 6);
 
 	$PKGi->render();
 }
