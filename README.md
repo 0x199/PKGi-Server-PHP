@@ -1,5 +1,5 @@
 # PKGi-Server-PHP
-Useful class to make your own PKGi server without a database.
+Useful class to make your own PKGi server without a database. If you do use a database you can easily integrate it with the `addHomebrew` function.
 
 See packages.php for an example.
 
