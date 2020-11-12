@@ -19,3 +19,5 @@ $PKGi->addHomebrew('My Homebrew', 1);
 ```
 
 It will then be added to the repo.
+
+Credit to theorywrong for [PKGi](https://github.com/theorywrong/PKGi).
