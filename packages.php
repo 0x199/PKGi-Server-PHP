@@ -16,14 +16,3 @@ if($PKGi->isRequestFromHomebrew()) {
 
 	$PKGi->render();
 }
-?>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Homebrew Repo</title>
-	</head>
-	<body>
-		<h1>Install PKGi to use this repo</h1>
-		<p>You are visiting this repo from a browser. Please install PKGi to use this repo.</p>
-	</body>
-</html>
