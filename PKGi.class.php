@@ -26,13 +26,13 @@ class PKGi {
 		];
 	}
 	
-	public function addHomebrew($name, $pkgurl) : array {
+	public function addHomebrew($name, $downloadid) : array {
 		$homebrewCount = is_array($this->homebrews) ? count($this->homebrews) : 0;
 		
 		return $this->homebrews[] = [
 			'id' => $homebrewCount + 1,
 			'name' => $name,
-			'pkgurl' => $pkgurl
+			'download' => $downloadid
 		];
 	}
 	
