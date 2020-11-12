@@ -6,6 +6,7 @@ $PKGi = new PKGi();
 if($PKGi->isRequestFromHomebrew()) {
 	header('Content-type: application/json');
 
+	// addHomebrew(name, download id)
 	$PKGi->addHomebrew('Homebrew 1', 1);
 	$PKGi->addHomebrew('Homebrew 2', 2);
 	$PKGi->addHomebrew('Homebrew 3', 3);
